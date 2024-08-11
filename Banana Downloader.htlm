@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BananaDownlaoder</title>
+		<style>
+		    body {
+            background-image: url('https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d8f4394c120b_bananas.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+	        }
+        /* Styles pour que la vidéo occupe toute la page */
+        body, html {
+            margin: 0;
+            height: 100%;
+        }
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    </head>
+    <body>
+	<h1><p style="color:white; font-size:100px">By Banana Downloader</p></h1>
+	<a href="https://drive.google.com/file/d/1wYGGkpRY_2Uvc8jSNyCrS9scy7d18Moy/view?usp=sharing" download style="padding: 40px 80px; background-color: #1bbdcf; color: black; text-decoration: none; border-radius: 20px;position: absolute; top: 400px; left: 100px;">
+  <h2>Télécharger Minecraft Windows</h2>
+</a>
+	<a href="https://drive.google.com/file/d/1MPCmiDtIVizoT56a8Anw18LrybWSTgFn/view?usp=sharing" download style="padding: 40px 60px; background-color: #357d2e; color: black; text-decoration: none; border-radius: 20px;position: absolute; top: 400px; left: 700px;">
+  <h2>Télécharger Minecraft Linux et Mac</h2>
+</a>
+<div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0CPqsoPZTrs?si=dG79pDWPYzvuGozz" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen style="position: relative; top: 300px; left: -300px;">
+    </iframe>
+</div>
+	</body>
